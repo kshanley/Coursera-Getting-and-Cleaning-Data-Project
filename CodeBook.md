@@ -1,10 +1,10 @@
-##Code Book
+#Code Book
 
-#ID Fields
+##ID Fields
 * subject - The participant ("subject") ID
 * activity - The label of the activity performed when the corresponding measurements were taken
 
-#Measurement Fields
+##Measurement Fields
 * tBodyAccMeanX
 * tBodyAccMeanY
 * tBodyAccMeanZ
@@ -85,7 +85,7 @@
 * fBodyBodyGyroJerkMagSD
 * fBodyBodyGyroJerkMagMeanFreq
 
-#Activity Labels
+##Activity Labels
 * WALKING (value 1)
 * WALKING_UPSTAIRS (value 2)
 * WALKING_DOWNSTAIRS (value 3)
@@ -94,7 +94,7 @@
 * LAYING (value 6) 
 
 
-#Files
+##Files
 * 'features.txt': List of all features.
 * 'activity_labels.txt': Links the class labels with their activity name.
 * 'train/X_train.txt': Training set.
